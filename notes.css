@@ -1,0 +1,66 @@
+CSS Notes
+-Styling Elements
+  selector {
+    character: value;
+  }
+    Example: (character means what you want to change, like color or border)
+  p {
+    color: ForestGreen;
+    font-size: 25px;
+  }
+-Using Classes to style specific Elements
+  In HMTL:
+  <selector class = "classname">
+  In CSS:
+  .classname{
+    character: value;
+  }
+  *Can apply class names to multiple things, but id's are used for only one thing
+    Example:
+    In HTML
+    <h1 class = "blueborder"> All about Jenalle Monae </h1>
+    In CSS
+    .blueborder{
+      border: 10px dashed blue;
+    }
+-Using an ID to style one Element
+  in HTML:
+    <selector id = "idname"> blah blah </selector>
+  in CSS:
+    #idname{
+       character: value;
+    }
+    Example:
+    In HTML
+    <li id = "funkyborder"> blah blah </li>
+    In CSS
+    #funkyborder{
+      border: 20 px solid purple
+    }
+-Sizing Photos Using Classes and ID
+  In HTML:
+  <img class="classname" src="link" alt= blah blah
+  In CSS:
+  .classname {
+    character: value;
+  }
+  *can do the same think with id by using #idname
+
+-Some Helpful characters
+  box-shadow: places shadow on a box or Element. values added are how much vertical thickness you want of the shadow, horizontal thickness, and blurriness of edge of shadow
+  border-radius: smooths edges of a photo to make it round
+  height: changes height of element (% or px) can only put height and width will autofill proportionate in webpage
+  width: changes width of an element (% or px)
+  border:
+  color: changes font color
+  font-family: chagnes the font face
+  margin: adds a margin around the element, outside of the border (px)
+  padding: increases the space within the element, inside of the border (px)
+
+-Flex Box: arrange items in a container.
+  -always start with display:flex;
+  -differnet options
+    *justify-content (arranges items horizontally): center, space-between, space-around
+    *align-items (arranges items vertically on page): center, flex-end, flex-start
+    *flex-direction (direction objects are placed): row, row-reverse, column, coulmn-reverse
+    *flex-wrap (organizes content on lines/rows):wrap (multiple lines), no-wrap (places everything on one line), wrap-reverse (items in multiple lines in reverse order)
